@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+<androidx.cardview.widget.CardView
+    android:layout_margin="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:background="@color/green"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+            <TextView
+                android:id="@+id/examsub"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:text="Java Programming"
+                />
+            <ImageView
+                android:id="@+id/timeimg"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/examtime"
+                android:src="@drawable/chronometer" />
+            <TextView
+                android:id="@+id/examtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="8.00-8.50"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="15dp"
+                android:layout_alignParentRight="true"/>
+            <ImageView
+                android:id="@+id/venueimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/examsub"
+                android:src="@drawable/location"
+                />
+
+            <TextView
+                android:id="@+id/examvenue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/venueimg"
+                android:text="Dr.Prabhakaran"
+                android:layout_below="@id/examsub"/>
+
+            <ImageView
+                android:id="@+id/dateimg"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/examtime"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@id/examdate"
+                android:src="@drawable/calendar" />
+            <TextView
+                android:id="@+id/examdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_marginTop="15dp"
+                android:text="SWE2004"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/examtime"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adminbg"
+    tools:context=".adminlogin"
+    android:orientation="vertical"
+    tools:targetApi="s">
+    <TextView
+        android:text="Welcome back! Glad to see you , Admin!"
+        android:letterSpacing="0.04"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="30dp"
+        android:textColor="@color/halfwhite"
+        android:layout_marginTop="90dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+        <EditText
+            android:id="@+id/adminusername"
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:background="@color/halfwhite"
+            android:hint="Username"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:id="@+id/adminpassword"
+            android:layout_marginHorizontal="50dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:background="@color/halfwhite"
+            android:hint="Password"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/admincontactus"
+        android:text="Don`t Know the password?Contact us"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/adminlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:background="#302C3C"
+/>
+
+
+</LinearLayout>

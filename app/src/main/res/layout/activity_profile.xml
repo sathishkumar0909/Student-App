@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profileview"
+    android:orientation="vertical"
+    tools:context=".profile">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userimagepro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_foreground"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/namepro"
+        android:text="Sathish Kumar"
+        android:textAllCaps="true"
+        android:textColor="@color/lightblue"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+android:fontFamily="@font/poppinsbold"        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="name"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/regnopro"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="name"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phonepro"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="name"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailpro"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>
+
+
