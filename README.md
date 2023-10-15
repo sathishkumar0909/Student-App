@@ -6,7 +6,7 @@ The app includes an admin login, which allows authorized personnel to update and
  This ensures that the information provided to students is accurate and up-to-date. Other notable features of the app include a calendar view, a notification system to keep students informed of important dates and deadlines, and a feedback feature for students to provide feedback on the app's functionality.
 Overall, this Android project serves as an essential resource for students and faculty members alike, providing a user-friendly interface and easy access to critical information. The app is designed to be both responsive and stable, utilizing the latest tools and technologies to ensure its functionality.
 
-<img width="338" alt="Untitled" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/519696dc-c0f7-4ab0-98a5-711176ca52ab">
+<img width="170" alt="Untitled" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/519696dc-c0f7-4ab0-98a5-711176ca52ab">
 <img width="171" alt="Screenshot 2023-04-11 192545" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/c6b41220-7088-4730-a3c4-7b637ec8aac8">
 <img width="175" alt="Screenshot 2023-04-11 193317" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/b0a3d0d3-10a3-44fc-aefe-33581e73d55b">
 <img width="175" alt="Screenshot 2023-04-11 193701" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/5df5c51d-3a8c-4623-a902-868d053b6af0">
