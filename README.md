@@ -7,3 +7,10 @@ The app includes an admin login, which allows authorized personnel to update and
 Overall, this Android project serves as an essential resource for students and faculty members alike, providing a user-friendly interface and easy access to critical information. The app is designed to be both responsive and stable, utilizing the latest tools and technologies to ensure its functionality.
 
 <img width="338" alt="Untitled" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/519696dc-c0f7-4ab0-98a5-711176ca52ab">
+<img width="171" alt="Screenshot 2023-04-11 192545" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/c6b41220-7088-4730-a3c4-7b637ec8aac8">
+<img width="175" alt="Screenshot 2023-04-11 193317" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/b0a3d0d3-10a3-44fc-aefe-33581e73d55b">
+<img width="175" alt="Screenshot 2023-04-11 193701" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/5df5c51d-3a8c-4623-a902-868d053b6af0">
+<img width="173" alt="Screenshot 2023-04-11 193823" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/e2544061-2ee5-4191-9de9-9f51ff1afd52">
+<img width="175" alt="Screenshot 2023-04-11 193906" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/b8e87c27-e2c6-4e7c-97a2-4c33ff9d1cb9">
+<img width="175" alt="Screenshot 2023-04-11 193943" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/95574ee4-6029-42fc-a90b-c6d2757d9b1c">
+<img width="178" alt="Screenshot 2023-04-11 191723" src="https://github.com/sathishkumar0909/Student-App/assets/89453856/10fcc615-d1fc-4411-ae9b-d7f61e2c3dc8">
